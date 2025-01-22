@@ -1,0 +1,167 @@
+body{
+    background-color: #355EFC;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #dfe4fd;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0; /* Сначала скрываем кнопку */
+    transition: opacity 0.3s ease-in-out;
+    background-image: url('../images/992703.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+.show {
+    opacity: 1;
+  }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dfe4fd;
+    border-radius: 10px;
+}
+.language{
+    width: 100%;
+    height: 30px;
+    background-color: #355EFC;
+    display: flex;
+    justify-content: flex-end;
+}
+.language img{
+    text-align: right;
+    height: 20px;
+    margin:5px 20px 0px 10px;
+}
+.logo_img{
+    display: flex;
+    height: 170px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.title{
+    display: flex;
+}
+.text_head{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 0 0;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+p{
+    margin: 0;
+}
+.structure{
+    margin: 30px 100px 80px 100px;
+    
+}
+h1{
+    text-align: center;
+    background-color: #dfe4fd;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    font-weight: 100;
+}
+.management{
+    margin-bottom: 70px;
+}
+.researcher{
+    display: flex;
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+.text_res{
+    display: flex;
+    flex-direction: column;
+    background-color: #dfe4fd;
+    /* background: linear-gradient(90deg, rgb(240, 248, 255), rgb(223, 228, 253)); */
+    width: 800px;
+    border-radius: 20px;
+    padding-left: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.researcher img{
+    height: 300px;  
+}
+.icon img{
+    height: 50px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 30px 30px 20px 30px;
+}
+.id_img{
+    margin-right: 60px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.name{
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.job_title{
+    font-size: 24px;
+}
+.p_info{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.labs_title{
+    margin: 30px 100px 40px 100px;
+}
+.labs_title a{
+    text-decoration: none;
+}
+h2{
+    background-color: #dfe4fd;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 36px;
+    padding: 20px;
+    color: black;
+    font-weight: 100;
+    
+}
+.row_lab{
+    display: flex;
+    margin-left: 100px;
+}
+.lab{
+    display: flex;
+    background-color: #dfe4fd;
+    border-radius: 10px;
+    width: 370px;
+    height: 100px;
+    margin: 30px;
+    
+}
+.lab p{
+    margin: 15px;
+    text-align: center;
+    font-size: 26px;
+}
+.lab a{
+    text-decoration: none;
+}
+footer{
+    background-color: blue;
+    height: 170px;
+    display: flex;
+    justify-content:flex-end;
+}
+.footer{
+    margin-top: 50px;
+    margin-right: 200px;
+    text-align: right;
+}
