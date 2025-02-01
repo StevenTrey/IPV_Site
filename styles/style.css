@@ -58,6 +58,10 @@ header{
     font-size: 36px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
+.text_head a{
+    text-decoration: none;
+    color: black;
+}
 p{
     margin: 0;
 }
