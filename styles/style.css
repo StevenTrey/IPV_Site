@@ -169,3 +169,80 @@ footer{
     margin-right: 200px;
     text-align: right;
 }
+
+@media (max-width: 768px) {
+    .logo_img{
+        display: flex;
+        height: 100px;
+        margin: 0 auto;
+    }
+    .text_head {
+        font-size: 20px;
+        width: 90%; 
+        text-align: center;
+    }
+    .title {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .structure {
+        width: 90%; 
+        text-align: center;  
+        margin: 10px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    .researcher {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+    .id_img{
+        height: 10px;
+    }
+    .text_res {
+      width: 90%;
+      padding: 10px;
+    }
+    .text_res p {
+        font-size: 20px;
+    }
+    .id_img { 
+        margin: 0 auto;
+    }
+    .icon {
+        text-align: center;
+    }
+    .icon img {
+        width: 40px;
+        height: auto;
+        margin: 5px;
+    }
+    .row_lab {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+    .labs_title{
+        font-size: 20px;
+        width: 90%; 
+        text-align: center;
+        margin: 0 auto; 
+    }
+    .lab {
+      width: 90%;
+      height: auto;
+      text-align: center;
+    }
+  
+    .footer {
+      margin-right: 20px;
+      text-align: center;
+    }
+  }
+  
