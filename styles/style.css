@@ -90,7 +90,7 @@ h1{
     flex-direction: column;
     background-color: #dfe4fd;
     /* background: linear-gradient(90deg, rgb(240, 248, 255), rgb(223, 228, 253)); */
-    width: 800px;
+    width: 900px;
     border-radius: 20px;
     padding-left: 15px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
@@ -135,10 +135,15 @@ h2{
     padding: 20px;
     color: black;
     font-weight: 100;
-    
+}
+.laboratories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .row_lab{
     display: flex;
+    text-align: center;
     margin-left: 100px;
 }
 .lab{
