@@ -93,6 +93,7 @@ h1{
     width: 900px;
     border-radius: 20px;
     padding-left: 15px;
+    padding-right: 15px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 .researcher img{
@@ -120,6 +121,7 @@ h1{
 .p_info{
     font-size: 24px;
     margin-bottom: 30px;
+    text-align: justify;
 }
 .labs_title{
     margin: 30px 100px 40px 100px;
